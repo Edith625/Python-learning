@@ -13,11 +13,11 @@ d = {"aa": "11", "bb":"22", "cc":"33", "dd":"44"}
 #     print(v)
 
 #解构
-# a = 10, 20
-# print(a)
-# print(type(a))
-# a, b = 10, 20
-# print(a, b)
+a = 10, 20
+print(a)
+print(type(a))
+a, b = 10, 20
+print(a, b)
 
 #通过解构
 for item in d.items():

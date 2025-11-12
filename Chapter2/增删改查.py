@@ -1,9 +1,9 @@
-# d = {"jay": "周杰伦" , "jj": "林俊杰"}
-#添加数据
-# d['key'] = "a"#新key = 新增值
-# print(d)
-# d.setdefault("pp", "aa") #key不存在，存在无法运行
-# print(d)
+d = {"jay": "周杰伦" , "jj": "林俊杰"}
+
+d['key'] = "a"#新key = 新增值
+print(d)
+d.setdefault("pp", "aa") #key不存在，存在无法运行
+print(d)
 
 # d['jj'] = "bb" #修改
 # print(d)
