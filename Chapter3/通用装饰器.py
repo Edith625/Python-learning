@@ -109,7 +109,6 @@ def login_vertify(fn):
         # 登录成功后再执行真正的函数
         return fn(*args, **kwargs)
     return inner
-
 @login_vertify
 def add():
     print("执行新增操作")
@@ -120,5 +119,3 @@ def upd():
 
 add()
 add()
-upd()
-upd()
